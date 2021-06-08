@@ -11,12 +11,12 @@ Copy and paste fasta file path into the first line of FindDirect.txt.
 In terminal, establish path to R scripts and run: Rscript RNase( ).R
 The csv file with post-RNase digested sequences and mass will be saved into the output folder.
 
-# Calculate CID fragmentation RNA sequences and mass
+# Calculate CID fragmented RNA sequences and mass
 Copy and paste post-RNase digested sequence csv file path into the second line of FindDirect.txt.
 In terminal, establish path to R scripts and run: Rscript CID_( ).R
 The csv file with CID fragmentation RNA sequences and mass will be saved into the output folder.
 
-# Calculate CID fragments mass after base loss
+# Calculate CID fragmented RNA mass after base loss
 Copy and paste CID fragmentation RNA sequence csv file path into the third line of FindDirect.txt.
 In terminal, establish path to R scripts and run: Rscript CID_a-B.R
 The csv file with CID base loss RNA sequences and mass will be saved into the output folder.
