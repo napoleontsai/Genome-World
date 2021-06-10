@@ -7,7 +7,7 @@ library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
 print(getwd())
 
-cid.fragments <- read.csv(as.character(read.table("my path/FileDirect.txt")$V1[3]),header = TRUE)[,2:3] # FileDirect.txt file path
+cid.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[3]),header = TRUE)[,2:3] # FileDirect.txt file path
 
 # Calculate base loss mass
 temp.cid.frag <- cid.fragments[which(str_count(cid.fragments[,1])>1),]
