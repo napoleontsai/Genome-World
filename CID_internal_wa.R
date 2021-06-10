@@ -2,7 +2,12 @@
 # Calculate all internal fragments
 library(stringr)
 library(seqinr)
-rnase.digested.fragments <- read.csv(as.character(read.table("my path/FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
+library(rstudioapi)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
+print(getwd())
+
+rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
 internal.sequences <- substring(rnase.digested.fragments$Digested_Sequence[which(str_count(rnase.digested.fragments$Digested_Sequence)>3)],2,str_count(rnase.digested.fragments$Digested_Sequence[which(str_count(rnase.digested.fragments$Digested_Sequence)>3)])-1)
 cid.frag.array <- list()
 for (i in 1:length(internal.sequences)){
@@ -30,6 +35,6 @@ for (i in 1:length(internal.frag)){
 }
 wa.ions.frag.mass <- cbind(internal.frag,unlist(wa_ions_mass))
 colnames(wa.ions.frag.mass) <- c("w-a_fragments","Mass_Da")
-write.csv(wa.ions.frag.mass, 'output folder path/std_out_wa_ions.csv') # Output folder path
+write.csv(wa.ions.frag.mass, 'std_out_wa_ions.csv') # Output spreadsheet
 q()
 
