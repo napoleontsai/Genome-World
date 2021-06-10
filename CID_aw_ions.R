@@ -2,6 +2,11 @@
 # Calculate all possible CID fragments
 library(stringr)
 library(seqinr)
+library(rstudioapi)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
+print(getwd())
+
 rnase.digested.fragments <- read.csv(as.character(read.table("my path/FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
 cid.frag.array <- list()
 for (i in 1:nrow(rnase.digested.fragments)){
@@ -55,6 +60,6 @@ for (i in 1:length(w.ions)){
 w.ions.frag.mass <- cbind(w.ions,unlist(w_ions_mass))
 colnames(a.ions.frag.mass) <- c("a_fragments","Mass_Da")
 colnames(w.ions.frag.mass) <- c("w_fragments","Mass_Da")
-write.csv(a.ions.frag.mass, 'output folder path/std_out_a_ions.csv') # Output folder path
-write.csv(w.ions.frag.mass, 'output folder path/std_out_w_ions.csv') # Output folder path
+write.csv(a.ions.frag.mass, 'std_out_a_ions.csv') # Output spreadsheet
+write.csv(w.ions.frag.mass, 'std_out_w_ions.csv') # Output spreadsheet
 q()
