@@ -17,5 +17,6 @@ Paste file path of RNA CID fragmentation spreadsheet to the third line of FileDi
 In terminal, run: Rscript CID_a-B.R
 The csv file with CID base loss RNA sequences and mass will be saved in the work directory.
 
-### Fasta folder
-Contain two fasta files for testing.
+### Folders
+Fasta: Contain two fasta files for testing.
+R: All R scripts for sequence and mass calculations. 
