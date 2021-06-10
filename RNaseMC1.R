@@ -7,7 +7,7 @@ library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
 print(getwd())
 
-FastaFile <- read.fasta(as.character(read.table("FileDirect.txt")$V1[1])) # FindDirect.txt file path
+FastaFile <- read.fasta(as.character(read.table("FileDirect.txt")$V1[1])) # FileDirect.txt file path
 frag.one <- unlist(strsplit(str_flatten(FastaFile[[1]]),"t"))
 digest.frag.one <- str_remove(paste(frag.one,"t")," ")
 if (FastaFile[[1]][length(FastaFile[[1]])] == "t"){
