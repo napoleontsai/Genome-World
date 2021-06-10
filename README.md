@@ -19,4 +19,4 @@ Paste file path of RNA CID fragmentation spreadsheet to the third line of FileDi
 
 ### Folders
 Fasta: Contain two fasta files for testing.
-<br /> R: All R scripts for sequence and mass calculations. 
+<br /> R: All R scripts for sequences and mass calculations. 
