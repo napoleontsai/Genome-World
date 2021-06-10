@@ -4,7 +4,7 @@ library(stringr)
 library(seqinr)
 library(rstudioapi)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
 print(getwd())
 
 rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
