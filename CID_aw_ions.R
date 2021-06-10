@@ -7,7 +7,7 @@ library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
 print(getwd())
 
-rnase.digested.fragments <- read.csv(as.character(read.table("my path/FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
+rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
 cid.frag.array <- list()
 for (i in 1:nrow(rnase.digested.fragments)){
   cid.frag <- list()
