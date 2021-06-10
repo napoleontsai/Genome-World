@@ -2,6 +2,11 @@
 # Load CID fragment sequences and mass table
 library(stringr)
 library(seqinr)
+library(rstudioapi)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
+print(getwd())
+
 cid.fragments <- read.csv(as.character(read.table("my path/FileDirect.txt")$V1[3]),header = TRUE)[,2:3] # FileDirect.txt file path
 
 # Calculate base loss mass
@@ -45,5 +50,5 @@ for (i in 1:nrow(temp.cid.frag)){
 }
 loss.base <- cbind(temp.cid.frag,unlist(loss_mass_A),unlist(loss_mass_G),unlist(loss_mass_C),unlist(loss_mass_U))
 colnames(loss.base) <- c("Sequence","Mass_Da","Loss_A","Loss_G","Loss_C","Loss_U")
-write.csv(loss.base, 'output folder path/std_out_loss_base.csv') # Output folder path
+write.csv(loss.base, 'std_out_loss_base.csv') # Output spreadsheet
 q()
