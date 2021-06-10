@@ -2,7 +2,12 @@
 # Calculate post enzyme-digested oligo sequences
 library(stringr)
 library(seqinr)
-FastaFile <- read.fasta(as.character(read.table("my path/FileDirect.txt")$V1[1])) # FindDirect.txt file path
+library(rstudioapi)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
+print(getwd())
+
+FastaFile <- read.fasta(as.character(read.table("FileDirect.txt")$V1[1])) # FindDirect.txt file path
 frag.one <- unlist(strsplit(str_flatten(FastaFile[[1]]),"c"))
 digest.frag.one <- str_remove(paste(frag.one,"c")," ")
 t_frag <- strsplit(digest.frag.one[grep("t",digest.frag.one)],"t")
@@ -49,5 +54,5 @@ for(i in 1:length(temp_frag_split)){
 }
 RNaseA_digested_frag <- cbind(RNaseA_digested_frag, unlist(oligo_mass))
 colnames(RNaseA_digested_frag) <- c("Digested_Sequence","Oligo_Mass_Da")
-write.csv(RNaseA_digested_frag,'output folder path/std_out_RNaseA.csv') # Output folder path
+write.csv(RNaseA_digested_frag,'std_out_RNaseA.csv') # Output spreadsheet
 q()
