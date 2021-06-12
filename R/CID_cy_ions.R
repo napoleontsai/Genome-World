@@ -1,4 +1,4 @@
-
+#!/usr/bin/env Rscript
 # Calculate all possible CID fragments
 library(stringr)
 library(seqinr)

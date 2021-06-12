@@ -1,11 +1,10 @@
-
+#!/usr/bin/env Rscript
 # Load CID fragment sequences and mass table
 library(stringr)
 library(seqinr)
 
 dir <- print(getwd())
 setwd(dir) # Automatically set work directory
-
 
 cid.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[3]),header = TRUE)[,2:3] # FileDirect.txt file path
 

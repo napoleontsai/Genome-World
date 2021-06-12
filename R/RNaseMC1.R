@@ -1,11 +1,10 @@
-
+#!/usr/bin/env Rscript
 # Calculate post enzyme-digested oligo sequences
 library(stringr)
 library(seqinr)
-library(rstudioapi)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
-print(getwd())
+dir <- print(getwd())
+setwd(dir) # Automatically set work directory
 
 FastaFile <- read.fasta(as.character(read.table("FileDirect.txt")$V1[1])) # FileDirect.txt file path
 frag.one <- unlist(strsplit(str_flatten(FastaFile[[1]]),"t"))

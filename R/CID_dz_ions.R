@@ -1,11 +1,10 @@
-
+#!/usr/bin/env Rscript
 # Calculate all possible CID fragments
 library(stringr)
 library(seqinr)
-library(rstudioapi)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
-print(getwd())
+dir <- print(getwd())
+setwd(dir) # Automatically set work directory
 
 rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
 cid.frag.array <- list()

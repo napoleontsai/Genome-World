@@ -1,11 +1,10 @@
-
-# Calculate all internal fragments
+#!/usr/bin/env Rscript
+# Calculate all internal CID fragments
 library(stringr)
 library(seqinr)
-library(rstudioapi)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set work directory
-print(getwd())
+dir <- print(getwd())
+setwd(dir) # Automatically set work directory
 
 rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]),header = TRUE) # FileDirect.txt file path
 internal.sequences <- substring(rnase.digested.fragments$Digested_Sequence[which(str_count(rnase.digested.fragments$Digested_Sequence)>3)],2,str_count(rnase.digested.fragments$Digested_Sequence[which(str_count(rnase.digested.fragments$Digested_Sequence)>3)])-1)

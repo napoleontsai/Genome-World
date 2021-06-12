@@ -1,4 +1,4 @@
-
+#!/usr/bin/env Rscript
 # Calculate all possible CID fragments
 library(stringr)
 library(seqinr)
@@ -24,7 +24,7 @@ for (i in 1:length(cid.frag.array)){
 }
 w.ions <- list()
 for (i in 1:nrow(rnase.digested.fragments)){
-  y.ions[[i]] <- substring(rnase.digested.fragments$Digested_Sequence[i],c(2:str_count(rnase.digested.fragments$Digested_Sequence[i])))
+  w.ions[[i]] <- substring(rnase.digested.fragments$Digested_Sequence[i],c(2:str_count(rnase.digested.fragments$Digested_Sequence[i])))
 }
 a.ions <- unlist(a.ions[which(str_count(rnase.digested.fragments$Digested_Sequence) > 1)])
 w.ions <- unlist(w.ions[which(str_count(rnase.digested.fragments$Digested_Sequence) > 1)])
