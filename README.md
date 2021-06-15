@@ -18,7 +18,7 @@ RNADigestCID can preform theoretical calculations on RNase digested RNA sequence
 * The results are product ions and will be saved in csv format.
 
 ### Calculate mass of the modified RNA ions
-* RNAmod.R uses csv files to calculate mass of the modified precursor and product ions. The second line of FileDirect.txt specify file path for a RNase digested precursor spreadsheet, while the third line specify file path for a CID product spreadsheet.
+* RNAmod.R uses csv files to calculate mass of the modified precursor and product ions. The second line of FileDirect.txt specifies file path for a RNase digested precursor spreadsheet, and the third line specifies file path for a CID product spreadsheet.
 * Specify a modification type in the fourth line of FileDirect.txt using short name symbol from RNAmod_info_Modomics.xml spreadsheet.
 * In terminal, run: ./RNAmod.R
 * The outputs are in .json format.
