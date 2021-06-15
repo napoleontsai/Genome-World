@@ -36,11 +36,11 @@ mass_C <- list()
 mass_U <- list()
 a_ions_mass <- list()
 for (i in 1:length(a.ions)){
-  mass_A[[i]] <- str_count(a.ions[[i]],"A")*329.2
-  mass_G[[i]] <- str_count(a.ions[[i]],"G")*345.2
-  mass_C[[i]] <- str_count(a.ions[[i]],"C")*305.2
-  mass_U[[i]] <- str_count(a.ions[[i]],"T")*306.2
-  a_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 1 - 79
+  mass_A[[i]] <- str_count(a.ions[[i]],"A")*329.0525
+  mass_G[[i]] <- str_count(a.ions[[i]],"G")*345.0474
+  mass_C[[i]] <- str_count(a.ions[[i]],"C")*305.0413
+  mass_U[[i]] <- str_count(a.ions[[i]],"T")*306.0253
+  a_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 1.007825035 - 78.9585
 }
 a.ions.frag.mass <- cbind(a.ions,unlist(a_ions_mass))
 
@@ -50,15 +50,20 @@ mass_C <- list()
 mass_U <- list()
 w_ions_mass <- list()
 for (i in 1:length(w.ions)){
-  mass_A[[i]] <- str_count(w.ions[[i]],"A")*329.2
-  mass_G[[i]] <- str_count(w.ions[[i]],"G")*345.2
-  mass_C[[i]] <- str_count(w.ions[[i]],"C")*305.2
-  mass_U[[i]] <- str_count(w.ions[[i]],"T")*306.2
-  w_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 17 + 79
+  mass_A[[i]] <- str_count(w.ions[[i]],"A")*329.0525
+  mass_G[[i]] <- str_count(w.ions[[i]],"G")*345.0474
+  mass_C[[i]] <- str_count(w.ions[[i]],"C")*305.0413
+  mass_U[[i]] <- str_count(w.ions[[i]],"T")*306.0253
+  w_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 17.00274 + 78.9585
 }
 w.ions.frag.mass <- cbind(w.ions,unlist(w_ions_mass))
 colnames(a.ions.frag.mass) <- c("a_fragments","Mass_Da")
 colnames(w.ions.frag.mass) <- c("w_fragments","Mass_Da")
-write.csv(a.ions.frag.mass, 'std_out_a_ions.csv') # Output spreadsheet
-write.csv(w.ions.frag.mass, 'std_out_w_ions.csv') # Output spreadsheet
+
+DigestionType <- as.character(read.table("FileDirect.txt")$V1[2])
+tag <- unlist(str_split(DigestionType, "out_"))[2]
+OutputNameOne <- paste("std_out_a_ions", tag, sep = "_")
+OutputNameTwo <- paste("std_out_w_ions", tag, sep = "_")
+write.csv(a.ions.frag.mass, OutputNameOne) # Output spreadsheet
+write.csv(w.ions.frag.mass, OutputNameTwo) # Output spreadsheet
 q()

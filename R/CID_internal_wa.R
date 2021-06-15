@@ -26,14 +26,18 @@ mass_C <- list()
 mass_U <- list()
 wa_ions_mass <- list()
 for (i in 1:length(internal.frag)){
-  mass_A[[i]] <- str_count(internal.frag[[i]],"A")*329.2
-  mass_G[[i]] <- str_count(internal.frag[[i]],"G")*345.2
-  mass_C[[i]] <- str_count(internal.frag[[i]],"C")*305.2
-  mass_U[[i]] <- str_count(internal.frag[[i]],"T")*306.2
-  wa_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 79 - 79
+  mass_A[[i]] <- str_count(internal.frag[[i]],"A")*329.0525
+  mass_G[[i]] <- str_count(internal.frag[[i]],"G")*345.0474
+  mass_C[[i]] <- str_count(internal.frag[[i]],"C")*305.0413
+  mass_U[[i]] <- str_count(internal.frag[[i]],"T")*306.0253
+  wa_ions_mass[[i]] <- mass_A[[i]] + mass_C[[i]] + mass_G[[i]] + mass_U[[i]] + 78.9585 - 78.9585
 }
 wa.ions.frag.mass <- cbind(internal.frag,unlist(wa_ions_mass))
 colnames(wa.ions.frag.mass) <- c("w-a_fragments","Mass_Da")
-write.csv(wa.ions.frag.mass, 'std_out_wa_ions.csv') # Output spreadsheet
+
+DigestionType <- as.character(read.table("FileDirect.txt")$V1[2])
+tag <- unlist(str_split(DigestionType, "out_"))[2]
+OutputNameOne <- paste("std_out_wa_ions", tag, sep = "_")
+write.csv(wa.ions.frag.mass, OutputNameOne) # Output spreadsheet
 q()
 

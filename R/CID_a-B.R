@@ -6,7 +6,7 @@ library(seqinr)
 dir <- print(getwd())
 setwd(dir) # Automatically set work directory
 
-cid.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[3]),header = TRUE)[,2:3] # FileDirect.txt file path
+cid.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[3]), header = TRUE)[,2:3] # FileDirect.txt file path
 
 # Calculate base loss mass
 temp.cid.frag <- cid.fragments[which(str_count(cid.fragments[,1])>1),]
@@ -20,16 +20,16 @@ loss_G <- list()
 loss_C <- list()
 loss_U <- list()
 for (i in 1:length(temp.seq)){
-  loss_A[i] <- (str_count(temp.seq[i],"A")/str_count(temp.seq[i],"A"))*(-135.13)
+  loss_A[i] <- (str_count(temp.seq[i],"A")/str_count(temp.seq[i],"A"))*(-135.05449518)
 }
 for (i in 1:length(temp.seq)){
-  loss_G[i] <- (str_count(temp.seq[i],"G")/str_count(temp.seq[i],"G"))*(-151.13)
+  loss_G[i] <- (str_count(temp.seq[i],"G")/str_count(temp.seq[i],"G"))*(-151.04940980)
 }
 for (i in 1:length(temp.seq)){
-  loss_C[i] <- (str_count(temp.seq[i],"C")/str_count(temp.seq[i],"C"))*(-111.10)
+  loss_C[i] <- (str_count(temp.seq[i],"C")/str_count(temp.seq[i],"C"))*(-111.043261792)
 }
 for (i in 1:length(temp.seq)){
-  loss_U[i] <- (str_count(temp.seq[i],"T")/str_count(temp.seq[i],"T"))*(-112.09)
+  loss_U[i] <- (str_count(temp.seq[i],"T")/str_count(temp.seq[i],"T"))*(-112.027277375)
 }
 loss_mass_A <- list()
 for (i in 1:nrow(temp.cid.frag)){
@@ -49,5 +49,9 @@ for (i in 1:nrow(temp.cid.frag)){
 }
 loss.base <- cbind(temp.cid.frag,unlist(loss_mass_A),unlist(loss_mass_G),unlist(loss_mass_C),unlist(loss_mass_U))
 colnames(loss.base) <- c("Sequence","Mass_Da","Loss_A","Loss_G","Loss_C","Loss_U")
-write.csv(loss.base, 'std_out_loss_base.csv') # Output spreadsheet
+
+DigestionType <- as.character(read.table("FileDirect.txt")$V1[2])
+tag <- unlist(str_split(DigestionType, "out_"))[2]
+OutputNameOne <- paste("std_out_loss_base", tag, sep = "_")
+write.csv(loss.base, OutputNameOne) # Output spreadsheet
 q()
