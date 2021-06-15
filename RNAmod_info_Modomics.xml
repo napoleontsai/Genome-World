@@ -1,0 +1,1607 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Yueh-Lin Tsai</Author>
+  <LastAuthor>Yueh-Lin Tsai</LastAuthor>
+  <Created>2021-06-15T19:24:15Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16620</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>1300</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Modomics ">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="173" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Width="104"/>
+   <Column ss:Width="317"/>
+   <Column ss:Width="91"/>
+   <Column ss:Width="95"/>
+   <Column ss:Width="96"/>
+   <Column ss:Width="103"/>
+   <Column ss:Width="76"/>
+   <Row>
+    <Cell><Data ss:Type="String">New Nomenclature</Data></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">Short Name</Data></Cell>
+    <Cell><Data ss:Type="String">RNAMods abbrev.</Data></Cell>
+    <Cell><Data ss:Type="String">Formula</Data></Cell>
+    <Cell><Data ss:Type="String">Monoisotopic mass</Data></Cell>
+    <Cell><Data ss:Type="String">Average mass</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">2- methylthiomethylenethio-N6-isopentenyl-adenosine</Data></Cell>
+    <Cell><Data ss:Type="String">msms2i6A</Data></Cell>
+    <Cell><Data ss:Type="String">¬£</Data></Cell>
+    <Cell><Data ss:Type="String">C17H25N5O4S2</Data></Cell>
+    <Cell><Data ss:Type="Number">427.13470000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">427.54</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">2‚Ä≤‚ÄêO‚ÄêMethyl-5-hydroxymethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">hm5Cm</Data></Cell>
+    <Cell><Data ss:Type="String">¬°</Data></Cell>
+    <Cell><Data ss:Type="String">C11H17N3O6</Data></Cell>
+    <Cell><Data ss:Type="Number">287.11169999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">287.27199999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">unknown nucleotide residue</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">00A</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-ribosyladenosine (phosphate)</Data></Cell>
+    <Cell><Data ss:Type="String">Ar(p)</Data></Cell>
+    <Cell><Data ss:Type="String">^</Data></Cell>
+    <Cell><Data ss:Type="String">C15O11N5H22P1</Data></Cell>
+    <Cell><Data ss:Type="Number">479.1053</Data></Cell>
+    <Cell><Data ss:Type="Number">479.3408</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">00G</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-ribosylguanosine (phosphate)</Data></Cell>
+    <Cell><Data ss:Type="String">Gr(p)</Data></Cell>
+    <Cell><Data ss:Type="String">‚Ñë</Data></Cell>
+    <Cell><Data ss:Type="String">C15O12N5H22P1</Data></Cell>
+    <Cell><Data ss:Type="Number">495.1003</Data></Cell>
+    <Cell><Data ss:Type="Number">495.34010000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">019A</Data></Cell>
+    <Cell><Data ss:Type="String">1,2‚Ä≤-O-dimethylinosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1Im</Data></Cell>
+    <Cell><Data ss:Type="String">Œæ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N4H16</Data></Cell>
+    <Cell><Data ss:Type="Number">296.1121</Data></Cell>
+    <Cell><Data ss:Type="Number">296.2835</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">01A</Data></Cell>
+    <Cell><Data ss:Type="String">1,2‚Ä≤-O-dimethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1Am</Data></Cell>
+    <Cell><Data ss:Type="String">≈ì</Data></Cell>
+    <Cell><Data ss:Type="String">C12O4N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">295.12810000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">295.2989</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">01G</Data></Cell>
+    <Cell><Data ss:Type="String">1,2‚Ä≤-O-dimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1Gm</Data></Cell>
+    <Cell><Data ss:Type="String">Œµ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">311.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">311.29770000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">022G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,N2,2‚Ä≤-O-trimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,2Gm</Data></Cell>
+    <Cell><Data ss:Type="String">|</Data></Cell>
+    <Cell><Data ss:Type="String">C13O5N5H19</Data></Cell>
+    <Cell><Data ss:Type="Number">325.1386</Data></Cell>
+    <Cell><Data ss:Type="Number">325.3252</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">027G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,7,2‚Ä≤-O-trimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,7Gm</Data></Cell>
+    <Cell><Data ss:Type="String">√¶</Data></Cell>
+    <Cell><Data ss:Type="String">C13H21N5O5</Data></Cell>
+    <Cell><Data ss:Type="Number">327.15429999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">327.34039999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">02G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,2‚Ä≤-O-dimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2Gm</Data></Cell>
+    <Cell><Data ss:Type="String">Œ≥</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">311.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">311.29820000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">02U</Data></Cell>
+    <Cell><Data ss:Type="String">2-thio-2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">s2Um</Data></Cell>
+    <Cell><Data ss:Type="String">‚àè</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N2H14S1</Data></Cell>
+    <Cell><Data ss:Type="Number">274.06229999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">274.29640000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">03U</Data></Cell>
+    <Cell><Data ss:Type="String">3,2‚Ä≤-O-dimethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">m3Um</Data></Cell>
+    <Cell><Data ss:Type="String">œÉ</Data></Cell>
+    <Cell><Data ss:Type="String">C11O6N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">272.10079999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">272.25830000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">042C</Data></Cell>
+    <Cell><Data ss:Type="String">N4-acetyl-2‚Ä≤-O-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">ac4Cm</Data></Cell>
+    <Cell><Data ss:Type="String">‚Ñµ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O6N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">299.11169999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">299.28399999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">044C</Data></Cell>
+    <Cell><Data ss:Type="String">N4,N4,2‚Ä≤-O-trimethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m4,4Cm</Data></Cell>
+    <Cell><Data ss:Type="String">Œ≤</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N3H19</Data></Cell>
+    <Cell><Data ss:Type="Number">285.13249999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">285.30070000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">04C</Data></Cell>
+    <Cell><Data ss:Type="String">N4,2‚Ä≤-O-dimethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m4Cm</Data></Cell>
+    <Cell><Data ss:Type="String">Œª</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">271.11680000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">271.27370000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0503U</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methyluridine 5-oxyacetic acid methyl ester</Data></Cell>
+    <Cell><Data ss:Type="String">mcmo5Um</Data></Cell>
+    <Cell><Data ss:Type="String">œø</Data></Cell>
+    <Cell><Data ss:Type="String">C13H18N2O9</Data></Cell>
+    <Cell><Data ss:Type="Number">346.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">346.29199999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">051U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethylaminomethyl-2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">cmnm5Um</Data></Cell>
+    <Cell><Data ss:Type="String">)</Data></Cell>
+    <Cell><Data ss:Type="String">C13O8N3H19</Data></Cell>
+    <Cell><Data ss:Type="Number">345.11720000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">345.30959999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0521U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methoxycarbonylmethyl-2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">mcm5Um</Data></Cell>
+    <Cell><Data ss:Type="String">‚à©</Data></Cell>
+    <Cell><Data ss:Type="String">C13O8N2H18</Data></Cell>
+    <Cell><Data ss:Type="Number">330.10629999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">330.29489999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0522U</Data></Cell>
+    <Cell><Data ss:Type="String">5-(carboxyhydroxymethyl)-2‚Ä≤-O-methyluridine methyl ester</Data></Cell>
+    <Cell><Data ss:Type="String">mchm5Um</Data></Cell>
+    <Cell><Data ss:Type="String">b</Data></Cell>
+    <Cell><Data ss:Type="String">C13H18N2O9</Data></Cell>
+    <Cell><Data ss:Type="Number">346.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">346.29399999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">053U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carbamoylmethyl-2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">ncm5Um</Data></Cell>
+    <Cell><Data ss:Type="String">~</Data></Cell>
+    <Cell><Data ss:Type="String">C12O7N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">315.10660000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">315.2833</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0583U</Data></Cell>
+    <Cell><Data ss:Type="String">5-(isopentenylaminomethyl)-2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">inm5Um</Data></Cell>
+    <Cell><Data ss:Type="String">¬º</Data></Cell>
+    <Cell><Data ss:Type="String">C16H25N3O6</Data></Cell>
+    <Cell><Data ss:Type="Number">355.17430000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">355.39109999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">05C</Data></Cell>
+    <Cell><Data ss:Type="String">5,2‚Ä≤-O-dimethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m5Cm</Data></Cell>
+    <Cell><Data ss:Type="String">œÑ</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">271.11680000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">271.27370000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">05U</Data></Cell>
+    <Cell><Data ss:Type="String">5,2‚Ä≤-O-dimethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">m5Um</Data></Cell>
+    <Cell><Data ss:Type="String">\</Data></Cell>
+    <Cell><Data ss:Type="String">C11O6N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">272.10079999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">272.25830000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">066A</Data></Cell>
+    <Cell><Data ss:Type="String">N6,N6,2‚Ä≤-O-trimethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m6,6Am</Data></Cell>
+    <Cell><Data ss:Type="String">Œ∑</Data></Cell>
+    <Cell><Data ss:Type="String">C13O4N5H19</Data></Cell>
+    <Cell><Data ss:Type="Number">309.14370000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">309.32589999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">06A</Data></Cell>
+    <Cell><Data ss:Type="String">N6,2‚Ä≤-O-dimethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m6Am</Data></Cell>
+    <Cell><Data ss:Type="String">œá</Data></Cell>
+    <Cell><Data ss:Type="String">C12O4N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">295.12810000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">295.2989</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">071C</Data></Cell>
+    <Cell><Data ss:Type="String">5-formyl-2‚Ä≤-O-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">f5Cm</Data></Cell>
+    <Cell><Data ss:Type="String">¬∞</Data></Cell>
+    <Cell><Data ss:Type="String">C11O6N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">285.09609999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">285.25700000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">09A</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methylinosine</Data></Cell>
+    <Cell><Data ss:Type="String">Im</Data></Cell>
+    <Cell><Data ss:Type="String">‚â§</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N4H14</Data></Cell>
+    <Cell><Data ss:Type="Number">282.09640000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">282.25650000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">09U</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methylpseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">Ym</Data></Cell>
+    <Cell><Data ss:Type="String">Z</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0A</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">Am</Data></Cell>
+    <Cell><Data ss:Type="String">:</Data></Cell>
+    <Cell><Data ss:Type="String">C11O4N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">281.11239999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">281.27190000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0C</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">Cm</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">257.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">257.24669999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0G</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">Gm</Data></Cell>
+    <Cell><Data ss:Type="String">#</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">297.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">297.27120000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0U</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤-O-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">Um</Data></Cell>
+    <Cell><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0X</Data></Cell>
+    <Cell><Data ss:Type="String">unknown methylated base</Data></Cell>
+    <Cell><Data ss:Type="String">Xm</Data></Cell>
+    <Cell><Data ss:Type="String">√é</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">100G</Data></Cell>
+    <Cell><Data ss:Type="String">7-cyano-7-deazaguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">preQ0tRNA</Data></Cell>
+    <Cell><Data ss:Type="String">œÜ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H13</Data></Cell>
+    <Cell><Data ss:Type="Number">307.0917</Data></Cell>
+    <Cell><Data ss:Type="Number">307.2663</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">100G (base)</Data></Cell>
+    <Cell><Data ss:Type="String">preQ0base</Data></Cell>
+    <Cell><Data ss:Type="String">preQ0base</Data></Cell>
+    <Cell><Data ss:Type="String">œà</Data></Cell>
+    <Cell><Data ss:Type="String">C7O1N5H5</Data></Cell>
+    <Cell><Data ss:Type="Number">175.04939999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">175.15010000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">101G</Data></Cell>
+    <Cell><Data ss:Type="String">7-aminomethyl-7-deazaguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">preQ1tRNA</Data></Cell>
+    <Cell><Data ss:Type="String">‚àâ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">311.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">311.29820000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">101G (base)</Data></Cell>
+    <Cell><Data ss:Type="String">preQ1base</Data></Cell>
+    <Cell><Data ss:Type="String">preQ1base</Data></Cell>
+    <Cell><Data ss:Type="String">‚àá</Data></Cell>
+    <Cell><Data ss:Type="String">C7O1N5H9</Data></Cell>
+    <Cell><Data ss:Type="Number">179.08070000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">179.18199999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">102G</Data></Cell>
+    <Cell><Data ss:Type="String">epoxyqueuosine</Data></Cell>
+    <Cell><Data ss:Type="String">oQtRNA</Data></Cell>
+    <Cell><Data ss:Type="String">œÇ</Data></Cell>
+    <Cell><Data ss:Type="String">C17O8N5H23</Data></Cell>
+    <Cell><Data ss:Type="Number">425.15469999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">425.39909999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">103G</Data></Cell>
+    <Cell><Data ss:Type="String">archaeosine</Data></Cell>
+    <Cell><Data ss:Type="String">G+</Data></Cell>
+    <Cell><Data ss:Type="String">(</Data></Cell>
+    <Cell><Data ss:Type="String">C12H16N6O5</Data></Cell>
+    <Cell><Data ss:Type="Number">324.1182</Data></Cell>
+    <Cell><Data ss:Type="Number">324.29649999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">104G</Data></Cell>
+    <Cell><Data ss:Type="String">galactosyl-queuosine</Data></Cell>
+    <Cell><Data ss:Type="String">galQtRNA</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">C23O12N5H33</Data></Cell>
+    <Cell><Data ss:Type="Number">571.21259999999995</Data></Cell>
+    <Cell><Data ss:Type="Number">571.54229999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">105G</Data></Cell>
+    <Cell><Data ss:Type="String">glutamyl-queuosine</Data></Cell>
+    <Cell><Data ss:Type="String">gluQtRNA</Data></Cell>
+    <Cell><Data ss:Type="String">‚äÑ</Data></Cell>
+    <Cell><Data ss:Type="String">C22O10N6H30</Data></Cell>
+    <Cell><Data ss:Type="Number">538.20230000000004</Data></Cell>
+    <Cell><Data ss:Type="Number">538.51549999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">106G</Data></Cell>
+    <Cell><Data ss:Type="String">mannosyl-queuosine</Data></Cell>
+    <Cell><Data ss:Type="String">manQtRNA</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">C23O12N5H33</Data></Cell>
+    <Cell><Data ss:Type="Number">571.21259999999995</Data></Cell>
+    <Cell><Data ss:Type="Number">571.54229999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10G</Data></Cell>
+    <Cell><Data ss:Type="String">queuosine</Data></Cell>
+    <Cell><Data ss:Type="String">QtRNA</Data></Cell>
+    <Cell><Data ss:Type="String">Q</Data></Cell>
+    <Cell><Data ss:Type="String">C17O7N5H23</Data></Cell>
+    <Cell><Data ss:Type="Number">409.15969999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">409.39980000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10G (base)</Data></Cell>
+    <Cell><Data ss:Type="String">Qbase</Data></Cell>
+    <Cell><Data ss:Type="String">Qbase</Data></Cell>
+    <Cell><Data ss:Type="String">‚à¥</Data></Cell>
+    <Cell><Data ss:Type="String">C12O3N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">277.11750000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">277.28359999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1309U</Data></Cell>
+    <Cell><Data ss:Type="String">1-methyl-3-(3-amino-3-carboxypropyl)pseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">m1acp3Y</Data></Cell>
+    <Cell><Data ss:Type="String">Œ±</Data></Cell>
+    <Cell><Data ss:Type="String">C14O8N3H21</Data></Cell>
+    <Cell><Data ss:Type="Number">359.13290000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">359.33659999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1551N</Data></Cell>
+    <Cell><Data ss:Type="String">alpha-methylmonophosphate cap</Data></Cell>
+    <Cell><Data ss:Type="String">m(pN)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">C6H12O10P2</Data></Cell>
+    <Cell><Data ss:Type="Number">305.99059999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">306.1028</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1553N</Data></Cell>
+    <Cell><Data ss:Type="String">gamma-methyltriphosphate cap</Data></Cell>
+    <Cell><Data ss:Type="String">mpp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">¬ß</Data></Cell>
+    <Cell><Data ss:Type="String">CH3O6P2</Data></Cell>
+    <Cell><Data ss:Type="Number">172.94049999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">172.9787</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">19A</Data></Cell>
+    <Cell><Data ss:Type="String">1-methylinosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1I</Data></Cell>
+    <Cell><Data ss:Type="String">O</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N4H14</Data></Cell>
+    <Cell><Data ss:Type="Number">282.09640000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">282.25650000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">19U</Data></Cell>
+    <Cell><Data ss:Type="String">1-methylpseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">m1Y</Data></Cell>
+    <Cell><Data ss:Type="String">]</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1A</Data></Cell>
+    <Cell><Data ss:Type="String">1-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1A</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">C11O4N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">281.11239999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">281.27190000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1G</Data></Cell>
+    <Cell><Data ss:Type="String">1-methylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m1G</Data></Cell>
+    <Cell><Data ss:Type="String">K</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">297.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">297.27120000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20510U</Data></Cell>
+    <Cell><Data ss:Type="String">5-aminomethyl-2-selenouridine</Data></Cell>
+    <Cell><Data ss:Type="String">nm5se2U</Data></Cell>
+    <Cell><Data ss:Type="String">œÄ</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15Se1</Data></Cell>
+    <Cell><Data ss:Type="Number">337.01760000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">336.20319999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20511U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methylaminomethyl-2-selenouridine</Data></Cell>
+    <Cell><Data ss:Type="String">mnm5se2U</Data></Cell>
+    <Cell><Data ss:Type="String">‚âÖ</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N3H17Se1</Data></Cell>
+    <Cell><Data ss:Type="Number">349.03410000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">349.19049999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2051U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethylaminomethyl-2-selenouridine</Data></Cell>
+    <Cell><Data ss:Type="String">cmnm5se2U</Data></Cell>
+    <Cell><Data ss:Type="String">‚ä•</Data></Cell>
+    <Cell><Data ss:Type="String">C12O7N3H17Se1</Data></Cell>
+    <Cell><Data ss:Type="Number">393.02390000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">393.20030000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20C</Data></Cell>
+    <Cell><Data ss:Type="String">agmatidine</Data></Cell>
+    <Cell><Data ss:Type="String">C+</Data></Cell>
+    <Cell><Data ss:Type="String">¬ø</Data></Cell>
+    <Cell><Data ss:Type="String">C14H25N7O4</Data></Cell>
+    <Cell><Data ss:Type="Number">355.1968</Data></Cell>
+    <Cell><Data ss:Type="Number">355.39729999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20U</Data></Cell>
+    <Cell><Data ss:Type="String">2-selenouridine</Data></Cell>
+    <Cell><Data ss:Type="String">se2U</Data></Cell>
+    <Cell><Data ss:Type="String">œâ</Data></Cell>
+    <Cell><Data ss:Type="String">C9O5N2H12Se1</Data></Cell>
+    <Cell><Data ss:Type="Number">305.99189999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">306.12209999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">21510U</Data></Cell>
+    <Cell><Data ss:Type="String">5-aminomethyl-2-geranylthiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">nm5ges2U</Data></Cell>
+    <Cell><Data ss:Type="String">Œî</Data></Cell>
+    <Cell><Data ss:Type="String">C20H31N3O5S</Data></Cell>
+    <Cell><Data ss:Type="Number">425.19839999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">425.54939999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">21511U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methylaminomethyl-2-geranylthiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">mnm5ges2U</Data></Cell>
+    <Cell><Data ss:Type="String">h</Data></Cell>
+    <Cell><Data ss:Type="String">C21H33N3O5S</Data></Cell>
+    <Cell><Data ss:Type="Number">439.21409999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">439.57619999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2151U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethylaminomethyl-2-geranylthiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">cmnm5ges2U</Data></Cell>
+    <Cell><Data ss:Type="String">f</Data></Cell>
+    <Cell><Data ss:Type="String">C22H33N3O7S</Data></Cell>
+    <Cell><Data ss:Type="Number">483.20389999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">483.58600000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2160A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio-N6-(cis-hydroxyisopentenyl) adenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2io6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚â†</Data></Cell>
+    <Cell><Data ss:Type="String">C16O5N5H23S1</Data></Cell>
+    <Cell><Data ss:Type="Number">397.142</Data></Cell>
+    <Cell><Data ss:Type="Number">397.45460000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2161A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio-N6-isopentenyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2i6A</Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell><Data ss:Type="String">C16O4N5H23S1</Data></Cell>
+    <Cell><Data ss:Type="Number">381.14710000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">381.45530000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2162A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio-N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2t6A</Data></Cell>
+    <Cell><Data ss:Type="String">[</Data></Cell>
+    <Cell><Data ss:Type="String">C16O8N6H22S1</Data></Cell>
+    <Cell><Data ss:Type="Number">458.12200000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">458.45119999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2163A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio-N6-hydroxynorvalylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2hn6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚âà</Data></Cell>
+    <Cell><Data ss:Type="String">C17O8N6H24S1</Data></Cell>
+    <Cell><Data ss:Type="Number">472.13760000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">472.47820000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2164A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio cyclic N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2ct6A</Data></Cell>
+    <Cell><Data ss:Type="String">√ø</Data></Cell>
+    <Cell><Data ss:Type="String">C17H21N5O7S</Data></Cell>
+    <Cell><Data ss:Type="Number">439.11619999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">439.44290000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2165A</Data></Cell>
+    <Cell><Data ss:Type="String">hydroxy-N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ht6A</Data></Cell>
+    <Cell><Data ss:Type="String">¬´</Data></Cell>
+    <Cell><Data ss:Type="String">C15H20N6O9</Data></Cell>
+    <Cell><Data ss:Type="Number">428.12920000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">428.35410000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">21C</Data></Cell>
+    <Cell><Data ss:Type="String">2-lysidine</Data></Cell>
+    <Cell><Data ss:Type="String">k2C</Data></Cell>
+    <Cell><Data ss:Type="String">}</Data></Cell>
+    <Cell><Data ss:Type="String">C15O6N5H25</Data></Cell>
+    <Cell><Data ss:Type="Number">371.18049999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">371.39440000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">21U</Data></Cell>
+    <Cell><Data ss:Type="String">2-geranylthiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">ges2U</Data></Cell>
+    <Cell><Data ss:Type="String">Œì</Data></Cell>
+    <Cell><Data ss:Type="String">C19H28N2O5S</Data></Cell>
+    <Cell><Data ss:Type="Number">396.17189999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">396.50779999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2279553N</Data></Cell>
+    <Cell><Data ss:Type="String">N2,N2,7-trimethylguanosine cap (cap TMG)</Data></Cell>
+    <Cell><Data ss:Type="String">m2,2,7Gpp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">¬∂</Data></Cell>
+    <Cell><Data ss:Type="String">C13H19N5O11P2</Data></Cell>
+    <Cell><Data ss:Type="Number">483.05560000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">483.26850000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">227G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,N2,7-trimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,2,7G</Data></Cell>
+    <Cell><Data ss:Type="String">‚à†</Data></Cell>
+    <Cell><Data ss:Type="String">C13O5N5H21</Data></Cell>
+    <Cell><Data ss:Type="Number">327.15429999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">327.34039999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">22G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,N2-dimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,2G</Data></Cell>
+    <Cell><Data ss:Type="String">R</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">311.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">311.29820000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2510U</Data></Cell>
+    <Cell><Data ss:Type="String">5-aminomethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">nm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">‚à´</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15S1</Data></Cell>
+    <Cell><Data ss:Type="Number">289.07319999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">289.31110000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2511U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methylaminomethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">mnm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N3H17S1</Data></Cell>
+    <Cell><Data ss:Type="Number">303.08890000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">303.3381</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">251U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethylaminomethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">cmnm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">$</Data></Cell>
+    <Cell><Data ss:Type="String">C12O7N3H17S1</Data></Cell>
+    <Cell><Data ss:Type="Number">347.07870000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">347.34769999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2521U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methoxycarbonylmethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">mcm5s2U</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">C12O7N2H16S1</Data></Cell>
+    <Cell><Data ss:Type="Number">332.06779999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">332.33300000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">253U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carbamoylmethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">ncm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">l</Data></Cell>
+    <Cell><Data ss:Type="String">C11H15N3O6S</Data></Cell>
+    <Cell><Data ss:Type="Number">317.06810000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">317.3227</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2540U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">cm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">‚Ñò</Data></Cell>
+    <Cell><Data ss:Type="String">C11O7N2H14S1</Data></Cell>
+    <Cell><Data ss:Type="Number">318.05220000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">318.30599999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">254U</Data></Cell>
+    <Cell><Data ss:Type="String">5-taurinomethyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">tm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">‚àÉ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O8N3H19S2</Data></Cell>
+    <Cell><Data ss:Type="Number">397.06139999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">397.42739999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2551N</Data></Cell>
+    <Cell><Data ss:Type="String">alpha-dimethylmonophosphate cap</Data></Cell>
+    <Cell><Data ss:Type="String">mm(pN)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">C7H14O10P2</Data></Cell>
+    <Cell><Data ss:Type="Number">320.00619999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">320.12970000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">255N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ nicotinamide adenine dinucleotide</Data></Cell>
+    <Cell><Data ss:Type="String">NAD(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">Œû</Data></Cell>
+    <Cell><Data ss:Type="String">C21H25N7O14P2</Data></Cell>
+    <Cell><Data ss:Type="Number">661.09349999999995</Data></Cell>
+    <Cell><Data ss:Type="Number">661.41579999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2583U</Data></Cell>
+    <Cell><Data ss:Type="String">5-(isopentenylaminomethyl)-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">inm5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">¬Ω</Data></Cell>
+    <Cell><Data ss:Type="String">C15H23N3O5S</Data></Cell>
+    <Cell><Data ss:Type="Number">357.13580000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">357.43079999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">25U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methyl-2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">m5s2U</Data></Cell>
+    <Cell><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N2H14S1</Data></Cell>
+    <Cell><Data ss:Type="Number">274.06229999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">274.29640000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">279553N</Data></Cell>
+    <Cell><Data ss:Type="String">N2,7-dimethylguanosine cap (cap DMG)</Data></Cell>
+    <Cell><Data ss:Type="String">m2,7Gpp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">¬Æ</Data></Cell>
+    <Cell><Data ss:Type="String">C12H17N5O11P2</Data></Cell>
+    <Cell><Data ss:Type="Number">469.04</Data></Cell>
+    <Cell><Data ss:Type="Number">469.24160000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">27G</Data></Cell>
+    <Cell><Data ss:Type="String">N2,7-dimethylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,7G</Data></Cell>
+    <Cell><Data ss:Type="String">‚à®</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H19</Data></Cell>
+    <Cell><Data ss:Type="Number">313.1386</Data></Cell>
+    <Cell><Data ss:Type="Number">313.31360000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">28A</Data></Cell>
+    <Cell><Data ss:Type="String">2,8-dimethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2,8A</Data></Cell>
+    <Cell><Data ss:Type="String">¬±</Data></Cell>
+    <Cell><Data ss:Type="String">C12H17N5O4</Data></Cell>
+    <Cell><Data ss:Type="Number">295.12810000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">295.29829999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2A</Data></Cell>
+    <Cell><Data ss:Type="String">/</Data></Cell>
+    <Cell><Data ss:Type="String">C11O4N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">281.11239999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">281.27190000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2C</Data></Cell>
+    <Cell><Data ss:Type="String">2-thiocytidine</Data></Cell>
+    <Cell><Data ss:Type="String">s2C</Data></Cell>
+    <Cell><Data ss:Type="String">%</Data></Cell>
+    <Cell><Data ss:Type="String">C9O4N3H13S1</Data></Cell>
+    <Cell><Data ss:Type="Number">259.06270000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">259.28480000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2G</Data></Cell>
+    <Cell><Data ss:Type="String">N2-methylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m2G</Data></Cell>
+    <Cell><Data ss:Type="String">L</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">297.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">297.27120000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2U</Data></Cell>
+    <Cell><Data ss:Type="String">2-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">s2U</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">C9O5N2H12S1</Data></Cell>
+    <Cell><Data ss:Type="Number">260.04669999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">260.26940000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">308U</Data></Cell>
+    <Cell><Data ss:Type="String">3-(3-amino-3-carboxypropyl)-5,6-dihydrouridine</Data></Cell>
+    <Cell><Data ss:Type="String">acp3D</Data></Cell>
+    <Cell><Data ss:Type="String">√ê</Data></Cell>
+    <Cell><Data ss:Type="String">C13H21N3O8</Data></Cell>
+    <Cell><Data ss:Type="Number">347.13290000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">347.3252</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">309U</Data></Cell>
+    <Cell><Data ss:Type="String">3-(3-amino-3-carboxypropyl)pseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">acp3Y</Data></Cell>
+    <Cell><Data ss:Type="String">√û</Data></Cell>
+    <Cell><Data ss:Type="String">C13H19N3O8</Data></Cell>
+    <Cell><Data ss:Type="Number">345.11720000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">345.30930000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30U</Data></Cell>
+    <Cell><Data ss:Type="String">3-(3-amino-3-carboxypropyl)uridine</Data></Cell>
+    <Cell><Data ss:Type="String">acp3U</Data></Cell>
+    <Cell><Data ss:Type="String">X</Data></Cell>
+    <Cell><Data ss:Type="String">C13O8N3H19</Data></Cell>
+    <Cell><Data ss:Type="Number">345.11720000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">345.30959999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3377N</Data></Cell>
+    <Cell><Data ss:Type="String">2‚Ä≤3‚Ä≤-cyclic phosphate end</Data></Cell>
+    <Cell><Data ss:Type="String">(pN)2‚Ä≤3‚Ä≤&gt;p</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">342G</Data></Cell>
+    <Cell><Data ss:Type="String">methylwyosine</Data></Cell>
+    <Cell><Data ss:Type="String">mimG</Data></Cell>
+    <Cell><Data ss:Type="String">‚àë</Data></Cell>
+    <Cell><Data ss:Type="String">C15O5N5H19</Data></Cell>
+    <Cell><Data ss:Type="Number">349.1386</Data></Cell>
+    <Cell><Data ss:Type="Number">349.34719999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3470G</Data></Cell>
+    <Cell><Data ss:Type="String">undermodified hydroxywybutosine</Data></Cell>
+    <Cell><Data ss:Type="String">OHyWx</Data></Cell>
+    <Cell><Data ss:Type="String">≈°</Data></Cell>
+    <Cell><Data ss:Type="String">C18O8N6H24</Data></Cell>
+    <Cell><Data ss:Type="Number">452.16550000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">452.42419999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">347G</Data></Cell>
+    <Cell><Data ss:Type="String">7-aminocarboxypropylwyosine</Data></Cell>
+    <Cell><Data ss:Type="String">yW-72</Data></Cell>
+    <Cell><Data ss:Type="String">Œ©</Data></Cell>
+    <Cell><Data ss:Type="String">C18O7N6H24</Data></Cell>
+    <Cell><Data ss:Type="Number">436.17059999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">436.42559999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3480G</Data></Cell>
+    <Cell><Data ss:Type="String">methylated undermodified hydroxywybutosine</Data></Cell>
+    <Cell><Data ss:Type="String">OHyWy</Data></Cell>
+    <Cell><Data ss:Type="String">y</Data></Cell>
+    <Cell><Data ss:Type="String">C19H26N6O8</Data></Cell>
+    <Cell><Data ss:Type="Number">466.18119999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">466.4511</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">34830G</Data></Cell>
+    <Cell><Data ss:Type="String">hydroxywybutosine</Data></Cell>
+    <Cell><Data ss:Type="String">OHyW</Data></Cell>
+    <Cell><Data ss:Type="String">‚äÜ</Data></Cell>
+    <Cell><Data ss:Type="String">C21O10N6H28</Data></Cell>
+    <Cell><Data ss:Type="Number">524.18669999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">524.48850000000004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">34832G</Data></Cell>
+    <Cell><Data ss:Type="String">peroxywybutosine</Data></Cell>
+    <Cell><Data ss:Type="String">o2yW</Data></Cell>
+    <Cell><Data ss:Type="String">W</Data></Cell>
+    <Cell><Data ss:Type="String">C21O11N6H28</Data></Cell>
+    <Cell><Data ss:Type="Number">540.1816</Data></Cell>
+    <Cell><Data ss:Type="Number">540.48779999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3483G</Data></Cell>
+    <Cell><Data ss:Type="String">wybutosine</Data></Cell>
+    <Cell><Data ss:Type="String">yW</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">C21O9N6H28</Data></Cell>
+    <Cell><Data ss:Type="Number">508.1918</Data></Cell>
+    <Cell><Data ss:Type="Number">508.48919999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">348G</Data></Cell>
+    <Cell><Data ss:Type="String">7-aminocarboxypropylwyosine methyl ester</Data></Cell>
+    <Cell><Data ss:Type="String">yW-58</Data></Cell>
+    <Cell><Data ss:Type="String">‚áë</Data></Cell>
+    <Cell><Data ss:Type="String">C19O7N6H26</Data></Cell>
+    <Cell><Data ss:Type="Number">450.18630000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">450.45249999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">34G</Data></Cell>
+    <Cell><Data ss:Type="String">wyosine</Data></Cell>
+    <Cell><Data ss:Type="String">imG</Data></Cell>
+    <Cell><Data ss:Type="String">‚Ç¨</Data></Cell>
+    <Cell><Data ss:Type="String">C14O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">335.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">335.3202</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">39U</Data></Cell>
+    <Cell><Data ss:Type="String">3-methylpseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">m3Y</Data></Cell>
+    <Cell><Data ss:Type="String">Œ∫</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3C</Data></Cell>
+    <Cell><Data ss:Type="String">3-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m3C</Data></Cell>
+    <Cell><Data ss:Type="String">'</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">257.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">257.24669999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3U</Data></Cell>
+    <Cell><Data ss:Type="String">3-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">m3U</Data></Cell>
+    <Cell><Data ss:Type="String">Œ¥</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4155N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ (3‚Ä≤ -dephosphoacetyl-CoA)</Data></Cell>
+    <Cell><Data ss:Type="String">acCoA(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">‚ô£</Data></Cell>
+    <Cell><Data ss:Type="String">C22H40N7O15P2S</Data></Cell>
+    <Cell><Data ss:Type="Number">736.17780000000005</Data></Cell>
+    <Cell><Data ss:Type="Number">736.61130000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4255N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ (3‚Ä≤ -dephosphomalonyl-CoA)</Data></Cell>
+    <Cell><Data ss:Type="String">malonyl-CoA(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">‚ô•</Data></Cell>
+    <Cell><Data ss:Type="String">C23H40N7O17P2S</Data></Cell>
+    <Cell><Data ss:Type="Number">780.16759999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">780.62109999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">42C</Data></Cell>
+    <Cell><Data ss:Type="String">N4-acetylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">ac4C</Data></Cell>
+    <Cell><Data ss:Type="String">M</Data></Cell>
+    <Cell><Data ss:Type="String">C11O6N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">285.09609999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">285.25700000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">42G</Data></Cell>
+    <Cell><Data ss:Type="String">isowyosine</Data></Cell>
+    <Cell><Data ss:Type="String">imG2</Data></Cell>
+    <Cell><Data ss:Type="String">‚äá</Data></Cell>
+    <Cell><Data ss:Type="String">C14O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">335.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">335.3202</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4355N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ (3‚Ä≤ -dephosphosuccinyl-CoA)</Data></Cell>
+    <Cell><Data ss:Type="String">succinyl-CoA(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">‚ô¶</Data></Cell>
+    <Cell><Data ss:Type="String">C24H41N7O17P2S</Data></Cell>
+    <Cell><Data ss:Type="Number">793.17550000000006</Data></Cell>
+    <Cell><Data ss:Type="Number">793.63160000000005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">44C</Data></Cell>
+    <Cell><Data ss:Type="String">N4,N4-dimethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m4,4C</Data></Cell>
+    <Cell><Data ss:Type="String">Œº</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">271.11680000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">271.27370000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">455N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ (3‚Ä≤ -dephospho-CoA)</Data></Cell>
+    <Cell><Data ss:Type="String">CoA(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">‚ô†</Data></Cell>
+    <Cell><Data ss:Type="String">C21H32N7O13P2S</Data></Cell>
+    <Cell><Data ss:Type="Number">684.12540000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">684.53800000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">47G</Data></Cell>
+    <Cell><Data ss:Type="String">7-aminocarboxypropyl-demethylwyosine</Data></Cell>
+    <Cell><Data ss:Type="String">yW-86</Data></Cell>
+    <Cell><Data ss:Type="String">¬•</Data></Cell>
+    <Cell><Data ss:Type="String">C17O7N6H22</Data></Cell>
+    <Cell><Data ss:Type="Number">422.15499999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">422.39859999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4C</Data></Cell>
+    <Cell><Data ss:Type="String">N4-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m4C</Data></Cell>
+    <Cell><Data ss:Type="String">ŒΩ</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">257.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">257.24669999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4G</Data></Cell>
+    <Cell><Data ss:Type="String">4-demethylwyosine</Data></Cell>
+    <Cell><Data ss:Type="String">imG-14</Data></Cell>
+    <Cell><Data ss:Type="String">‚Ä†</Data></Cell>
+    <Cell><Data ss:Type="String">C13O5N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">321.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">321.29329999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">501U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methoxyuridine</Data></Cell>
+    <Cell><Data ss:Type="String">mo5U</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">C10O7N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">274.08010000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">274.23059999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">502U</Data></Cell>
+    <Cell><Data ss:Type="String">uridine 5-oxyacetic acid</Data></Cell>
+    <Cell><Data ss:Type="String">cmo5U</Data></Cell>
+    <Cell><Data ss:Type="String">V</Data></Cell>
+    <Cell><Data ss:Type="String">C11O9N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">318.06990000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">318.24029999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">503U</Data></Cell>
+    <Cell><Data ss:Type="String">uridine 5-oxyacetic acid methyl ester</Data></Cell>
+    <Cell><Data ss:Type="String">mcmo5U</Data></Cell>
+    <Cell><Data ss:Type="String">œÖ</Data></Cell>
+    <Cell><Data ss:Type="String">C12O9N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">332.0856</Data></Cell>
+    <Cell><Data ss:Type="Number">332.2672</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">50C</Data></Cell>
+    <Cell><Data ss:Type="String">5-hydroxycytidine</Data></Cell>
+    <Cell><Data ss:Type="String">ho5C</Data></Cell>
+    <Cell><Data ss:Type="String">√á</Data></Cell>
+    <Cell><Data ss:Type="String">C9H13N3O6</Data></Cell>
+    <Cell><Data ss:Type="Number">259.0804</Data></Cell>
+    <Cell><Data ss:Type="Number">259.21879999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">50U</Data></Cell>
+    <Cell><Data ss:Type="String">5-hydroxyuridine</Data></Cell>
+    <Cell><Data ss:Type="String">ho5U</Data></Cell>
+    <Cell><Data ss:Type="String">‚àù</Data></Cell>
+    <Cell><Data ss:Type="String">C9O7N2H12</Data></Cell>
+    <Cell><Data ss:Type="Number">260.06450000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">260.20359999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">510U</Data></Cell>
+    <Cell><Data ss:Type="String">5-aminomethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">nm5U</Data></Cell>
+    <Cell><Data ss:Type="String">‚à™</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">273.09609999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">273.24599999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">511U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methylaminomethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">mnm5U</Data></Cell>
+    <Cell><Data ss:Type="String">{</Data></Cell>
+    <Cell><Data ss:Type="String">C11O6N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">287.11169999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">287.27300000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">51C</Data></Cell>
+    <Cell><Data ss:Type="String">5-hydroxymethylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">hm5C</Data></Cell>
+    <Cell><Data ss:Type="String">‚àÖ</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">273.09609999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">273.24599999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">51U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethylaminomethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">cmnm5U</Data></Cell>
+    <Cell><Data ss:Type="String">!</Data></Cell>
+    <Cell><Data ss:Type="String">C12O8N3H17</Data></Cell>
+    <Cell><Data ss:Type="Number">331.10160000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">331.2826</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">520U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxyhydroxymethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">chm5U</Data></Cell>
+    <Cell><Data ss:Type="String">‚â•</Data></Cell>
+    <Cell><Data ss:Type="String">C11O9N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">318.06990000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">318.24029999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">521U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methoxycarbonylmethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">mcm5U</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">C12O8N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">316.09070000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">316.2679</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">522U</Data></Cell>
+    <Cell><Data ss:Type="String">5-(carboxyhydroxymethyl)uridine methyl ester</Data></Cell>
+    <Cell><Data ss:Type="String">mchm5U</Data></Cell>
+    <Cell><Data ss:Type="String">,</Data></Cell>
+    <Cell><Data ss:Type="String">C12O9N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">332.0856</Data></Cell>
+    <Cell><Data ss:Type="Number">332.2672</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">52U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carboxymethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">cm5U</Data></Cell>
+    <Cell><Data ss:Type="String">‚óä</Data></Cell>
+    <Cell><Data ss:Type="String">C11O8N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">302.07499999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">302.24099999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">531U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carbamoylhydroxymethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">nchm5U</Data></Cell>
+    <Cell><Data ss:Type="String">r</Data></Cell>
+    <Cell><Data ss:Type="String">C11H15N3O8</Data></Cell>
+    <Cell><Data ss:Type="Number">317.08589999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">317.25549999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">53U</Data></Cell>
+    <Cell><Data ss:Type="String">5-carbamoylmethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">ncm5U</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;</Data></Cell>
+    <Cell><Data ss:Type="String">C11O7N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">301.09100000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">301.25630000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">54U</Data></Cell>
+    <Cell><Data ss:Type="String">5-taurinomethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">tm5U</Data></Cell>
+    <Cell><Data ss:Type="String">√ä</Data></Cell>
+    <Cell><Data ss:Type="String">C12O9N3H19S1</Data></Cell>
+    <Cell><Data ss:Type="Number">381.08420000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">381.3623</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">550N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ hydroxyl end</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤-OH-N</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">552N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ diphosphate end</Data></Cell>
+    <Cell><Data ss:Type="String">p(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">œí</Data></Cell>
+    <Cell><Data ss:Type="String">PO3</Data></Cell>
+    <Cell><Data ss:Type="Number">78.958500000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">78.971999999999994</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">553N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ triphosphate end</Data></Cell>
+    <Cell><Data ss:Type="String">pp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">œñ</Data></Cell>
+    <Cell><Data ss:Type="String">P3O9R</Data></Cell>
+    <Cell><Data ss:Type="Number">157.917</Data></Cell>
+    <Cell><Data ss:Type="Number">157.94390000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">55U</Data></Cell>
+    <Cell><Data ss:Type="String">5-cyanomethyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">cnm5U</Data></Cell>
+    <Cell><Data ss:Type="String">—∂</Data></Cell>
+    <Cell><Data ss:Type="String">C11H13N3O6</Data></Cell>
+    <Cell><Data ss:Type="Number">283.0804</Data></Cell>
+    <Cell><Data ss:Type="Number">283.24079999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">583U</Data></Cell>
+    <Cell><Data ss:Type="String">5-(isopentenylaminomethyl)uridine</Data></Cell>
+    <Cell><Data ss:Type="String">inm5U</Data></Cell>
+    <Cell><Data ss:Type="String">¬æ</Data></Cell>
+    <Cell><Data ss:Type="String">C15H23N3O6</Data></Cell>
+    <Cell><Data ss:Type="Number">341.15870000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">341.36419999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">58U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methyldihydrouridine</Data></Cell>
+    <Cell><Data ss:Type="String">m5D</Data></Cell>
+    <Cell><Data ss:Type="String">œÅ</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H16</Data></Cell>
+    <Cell><Data ss:Type="Number">260.10079999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">260.2473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5C</Data></Cell>
+    <Cell><Data ss:Type="String">5-methylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">m5C</Data></Cell>
+    <Cell><Data ss:Type="String">?</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N3H15</Data></Cell>
+    <Cell><Data ss:Type="Number">257.10120000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">257.24669999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5U</Data></Cell>
+    <Cell><Data ss:Type="String">5-methyluridine</Data></Cell>
+    <Cell><Data ss:Type="String">m5U</Data></Cell>
+    <Cell><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">258.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">258.23129999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">60A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-(cis-hydroxyisopentenyl)adenosine</Data></Cell>
+    <Cell><Data ss:Type="String">io6A</Data></Cell>
+    <Cell><Data ss:Type="String">`</Data></Cell>
+    <Cell><Data ss:Type="String">C15O5N5H21</Data></Cell>
+    <Cell><Data ss:Type="Number">351.15429999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">351.36320000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">61A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-isopentenyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">i6A</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">C15O4N5H21</Data></Cell>
+    <Cell><Data ss:Type="Number">335.15940000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">335.3639</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">621A</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylthio-N6-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ms2m6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚àû</Data></Cell>
+    <Cell><Data ss:Type="String">C12O4N5H17S1</Data></Cell>
+    <Cell><Data ss:Type="Number">327.1001</Data></Cell>
+    <Cell><Data ss:Type="Number">327.36329999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">62A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">t6A</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">C15O8N6H20</Data></Cell>
+    <Cell><Data ss:Type="Number">412.1343</Data></Cell>
+    <Cell><Data ss:Type="Number">412.35980000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">63A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-hydroxynorvalylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">hn6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚àö</Data></Cell>
+    <Cell><Data ss:Type="String">C16O8N6H22</Data></Cell>
+    <Cell><Data ss:Type="Number">426.1499</Data></Cell>
+    <Cell><Data ss:Type="Number">426.38679999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">64A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-acetyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ac6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚áì</Data></Cell>
+    <Cell><Data ss:Type="String">C12O5N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">309.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">309.28219999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">65A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-glycinylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">g6A</Data></Cell>
+    <Cell><Data ss:Type="String">‚â°</Data></Cell>
+    <Cell><Data ss:Type="String">C13O7N6H16</Data></Cell>
+    <Cell><Data ss:Type="Number">368.108</Data></Cell>
+    <Cell><Data ss:Type="Number">368.3066</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">662A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-methyl-N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m6t6A</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">C16O8N6H22</Data></Cell>
+    <Cell><Data ss:Type="Number">426.1499</Data></Cell>
+    <Cell><Data ss:Type="Number">426.38679999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">66A</Data></Cell>
+    <Cell><Data ss:Type="String">N6,N6-dimethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m6,6A</Data></Cell>
+    <Cell><Data ss:Type="String">Œ∂</Data></Cell>
+    <Cell><Data ss:Type="String">C12O4N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">295.12810000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">295.2989</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">67A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-formyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">f6A</Data></Cell>
+    <Cell><Data ss:Type="String">œ®</Data></Cell>
+    <Cell><Data ss:Type="String">C11H13N5O5</Data></Cell>
+    <Cell><Data ss:Type="Number">295.0917</Data></Cell>
+    <Cell><Data ss:Type="Number">295.25490000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">68A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-hydroxymethyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">hm6A</Data></Cell>
+    <Cell><Data ss:Type="String">œ™</Data></Cell>
+    <Cell><Data ss:Type="String">C11H15N5O5</Data></Cell>
+    <Cell><Data ss:Type="Number">297.10730000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">297.27080000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">69A</Data></Cell>
+    <Cell><Data ss:Type="String">cyclic N6-threonylcarbamoyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">ct6A</Data></Cell>
+    <Cell><Data ss:Type="String">e</Data></Cell>
+    <Cell><Data ss:Type="String">C15O7N6H18</Data></Cell>
+    <Cell><Data ss:Type="Number">394.12369999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">394.3442</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6A</Data></Cell>
+    <Cell><Data ss:Type="String">N6-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m6A</Data></Cell>
+    <Cell><Data ss:Type="String">=</Data></Cell>
+    <Cell><Data ss:Type="String">C11O4N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">281.11239999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">281.27190000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">71C</Data></Cell>
+    <Cell><Data ss:Type="String">5-formylcytidine</Data></Cell>
+    <Cell><Data ss:Type="String">f5C</Data></Cell>
+    <Cell><Data ss:Type="String">&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">C10O6N3H13</Data></Cell>
+    <Cell><Data ss:Type="Number">271.0804</Data></Cell>
+    <Cell><Data ss:Type="Number">271.23009999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">74U</Data></Cell>
+    <Cell><Data ss:Type="String">4-thiouridine</Data></Cell>
+    <Cell><Data ss:Type="String">s4U</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">C9O5N2H12S1</Data></Cell>
+    <Cell><Data ss:Type="Number">260.04669999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">260.26940000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">79553N</Data></Cell>
+    <Cell><Data ss:Type="String">7-methylguanosine cap (cap 0)</Data></Cell>
+    <Cell><Data ss:Type="String">m7Gpp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">¬©</Data></Cell>
+    <Cell><Data ss:Type="String">C11H15N5O11P2</Data></Cell>
+    <Cell><Data ss:Type="Number">455.02429999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">455.21469999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7G</Data></Cell>
+    <Cell><Data ss:Type="String">7-methylguanosine</Data></Cell>
+    <Cell><Data ss:Type="String">m7G</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">C11O5N5H17</Data></Cell>
+    <Cell><Data ss:Type="Number">299.12299999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">299.2867</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8A</Data></Cell>
+    <Cell><Data ss:Type="String">8-methyladenosine</Data></Cell>
+    <Cell><Data ss:Type="String">m8A</Data></Cell>
+    <Cell><Data ss:Type="String">√¢</Data></Cell>
+    <Cell><Data ss:Type="String">C11O4N5H15</Data></Cell>
+    <Cell><Data ss:Type="Number">281.11239999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">281.27190000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8U</Data></Cell>
+    <Cell><Data ss:Type="String">dihydrouridine</Data></Cell>
+    <Cell><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">C9O6N2H14</Data></Cell>
+    <Cell><Data ss:Type="Number">246.08519999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">246.22030000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9553N</Data></Cell>
+    <Cell><Data ss:Type="String">guanylylated 5‚Ä≤ end (cap G)</Data></Cell>
+    <Cell><Data ss:Type="String">Gpp(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">œë</Data></Cell>
+    <Cell><Data ss:Type="String">C10H12N5O14P3</Data></Cell>
+    <Cell><Data ss:Type="Number">440.00080000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">440.17989999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9A</Data></Cell>
+    <Cell><Data ss:Type="String">inosine</Data></Cell>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N4H12</Data></Cell>
+    <Cell><Data ss:Type="Number">268.08080000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">268.22949999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9U</Data></Cell>
+    <Cell><Data ss:Type="String">pseudouridine</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">C9O6N2H12</Data></Cell>
+    <Cell><Data ss:Type="Number">244.06950000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">244.20429999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">?A</Data></Cell>
+    <Cell><Data ss:Type="String">unknown modified adenosine</Data></Cell>
+    <Cell><Data ss:Type="String">xA</Data></Cell>
+    <Cell><Data ss:Type="String">H</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">?C</Data></Cell>
+    <Cell><Data ss:Type="String">unknown modified cytidine</Data></Cell>
+    <Cell><Data ss:Type="String">xC</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">?G</Data></Cell>
+    <Cell><Data ss:Type="String">unknown modified guanosine</Data></Cell>
+    <Cell><Data ss:Type="String">xG</Data></Cell>
+    <Cell><Data ss:Type="String">;</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">?U</Data></Cell>
+    <Cell><Data ss:Type="String">unknown modified uridine</Data></Cell>
+    <Cell><Data ss:Type="String">xU</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="String">adenosine</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="String">C10O4N5H13</Data></Cell>
+    <Cell><Data ss:Type="Number">267.09679999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">267.24489999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">cytidine</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">C9O5N3H13</Data></Cell>
+    <Cell><Data ss:Type="Number">243.0855</Data></Cell>
+    <Cell><Data ss:Type="Number">243.21969999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">G</Data></Cell>
+    <Cell><Data ss:Type="String">guanosine</Data></Cell>
+    <Cell><Data ss:Type="String">G</Data></Cell>
+    <Cell><Data ss:Type="String">G</Data></Cell>
+    <Cell><Data ss:Type="String">C10O5N5H13</Data></Cell>
+    <Cell><Data ss:Type="Number">283.0917</Data></Cell>
+    <Cell><Data ss:Type="Number">283.24419999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GN</Data></Cell>
+    <Cell><Data ss:Type="String">guanosine added to any nucleotide</Data></Cell>
+    <Cell><Data ss:Type="String">pG(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">none</Data></Cell>
+    <Cell><Data ss:Type="String">C10H13N5O8P</Data></Cell>
+    <Cell><Data ss:Type="Number">362.05020000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">362.21589999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">5‚Ä≤ monophosphate end</Data></Cell>
+    <Cell><Data ss:Type="String">(pN)</Data></Cell>
+    <Cell><Data ss:Type="String">m</Data></Cell>
+    <Cell><Data ss:Type="String">C5H7O10P2</Data></Cell>
+    <Cell><Data ss:Type="Number">288.95139999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">289.0521</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">U</Data></Cell>
+    <Cell><Data ss:Type="String">uridine</Data></Cell>
+    <Cell><Data ss:Type="String">U</Data></Cell>
+    <Cell><Data ss:Type="String">U</Data></Cell>
+    <Cell><Data ss:Type="String">C9O6N2H12</Data></Cell>
+    <Cell><Data ss:Type="Number">244.06950000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">244.20429999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">X</Data></Cell>
+    <Cell><Data ss:Type="String">unknown modification</Data></Cell>
+    <Cell><Data ss:Type="String">xX</Data></Cell>
+    <Cell><Data ss:Type="String">@</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
