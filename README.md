@@ -27,4 +27,4 @@ RNADigestCID can preform theoretical calculations on RNase digested RNA sequence
 * Fasta: Contain two fasta files for testing.
 * R: All R scripts for sequences and mass calculations.
 * RNAmod_info_Modomics.xml: Spreadsheet containing RNA modification symbols and mass information from Modomics.
-* RNADigestCID_Workflow.pptx: Indicate hierarchy of the codes.
+* RNADigestCID_WorkFlow.pptx: Indicate hierarchy of the codes.
