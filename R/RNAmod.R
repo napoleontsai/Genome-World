@@ -30,7 +30,7 @@ colnames(mod.df) <- c("original_base","short_names","mass_monoiso")
 # Perform mass calculations on the selected modification
 # RNase digested precursor ions
 InputMod <- as.character(read.table("FileDirect.txt")$V1[4])
-InputMod_Mass <- as.numeric(as.character(mod.df[which(mod.df$short_names %in% InputMod),]$mass_monoiso)) - 2 + 63
+InputMod_Mass <- as.numeric(as.character(mod.df[which(mod.df$short_names %in% InputMod),]$mass_monoiso)) - 2.01565 + 62.96359
 InputOriginal <- as.character(mod.df[which(mod.df$short_names %in% InputMod),]$original_base)
 rnase.digested.fragments <- read.csv(as.character(read.table("FileDirect.txt")$V1[2]), header = TRUE)
 MatchedSequences <- str_count(as.character(unlist(rnase.digested.fragments$Digested_Sequence)), InputOriginal)
